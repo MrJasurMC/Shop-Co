@@ -194,9 +194,9 @@ function Categories() {
           >
             {pages.map((page, pageIndex) => (
               <SwiperSlide key={pageIndex}>
-                <div className="grid grid-cols-2 md:flex md:flex-wrap gap-3 md:gap-6 pb-10">
+                <div className="grid grid-cols-3 md:flex md:flex-wrap gap-3 md:gap-6 pb-10">
                   {page.map(item => (
-                    <Link key={item.id} to={`/product/${item.id}`} className="group flex flex-col gap-[8px] md:gap-[10px] cursor-pointer text-inherit md:w-[300px]">
+                    <Link key={item.id} to={`/product/${item.id}`} className="group flex flex-col gap-[8px] md:gap-[10px] cursor-pointer text-inherit md:w-[290px]">
                       <div className="overflow-hidden rounded-xl bg-[#F0EEED]">
                         <img src={item.image} alt={item.name} className='w-full h-[180px] md:w-[300px] md:h-[300px] object-cover transition-transform duration-300 group-hover:scale-105' />
                       </div>
