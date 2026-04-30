@@ -19,21 +19,25 @@ function chunkArray(arr, size) {
 }
 
 function Categories() {
+  const prices = products.products.map(p => Number(p.price))
+  const maxProductPrice = Math.max(...prices)
+
   const [activeFilter, setActiveFilter] = useState("All")
   const [activeColor, setActiveColor]   = useState("All")
   const [activeSize, setActiveSize]     = useState("All")
   const [activeStyle, setActiveStyle]   = useState("All")
-  const [minPrice, setMinPrice]         = useState(50)
-  const [maxPrice, setMaxPrice]         = useState(200)
+  const [minPrice, setMinPrice]         = useState(0)
+  const [maxPrice, setMaxPrice]         = useState(maxProductPrice)
   const [currentSlide, setCurrentSlide] = useState(0)
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
 
   const filtered = products.products.filter(item => {
+    const price = Number(item.price)
     const matchesType  = activeFilter === "All" || item.type?.toLowerCase() === activeFilter.toLowerCase()
     const matchesColor = activeColor  === "All" || item.colors?.includes(activeColor)
     const matchesSize  = activeSize   === "All" || item.sizes?.includes(activeSize)
     const matchesStyle = activeStyle  === "All" || item.dressStyle?.includes(activeStyle)
-    const matchesPrice = item.price >= minPrice && item.price <= maxPrice
+    const matchesPrice = price >= minPrice && price <= maxPrice
     return matchesType && matchesColor && matchesSize && matchesStyle && matchesPrice
   })
 
@@ -74,9 +78,9 @@ function Categories() {
         <div className="flex justify-between items-center mb-4"><h3 className="font-medium">Price</h3><IoIosArrowUp /></div>
         <div className="flex flex-col gap-3">
           <div className="price-track">
-            <div className="price-fill" style={{ left: `${(minPrice / 500) * 100}%`, width: `${((maxPrice - minPrice) / 500) * 100}%` }} />
-            <input type="range" min="0" max="500" value={minPrice} onChange={(e) => setMinPrice(Math.min(Number(e.target.value), maxPrice - 10))} className="price-slider" />
-            <input type="range" min="0" max="500" value={maxPrice} onChange={(e) => setMaxPrice(Math.max(Number(e.target.value), minPrice + 10))} className="price-slider" />
+            <div className="price-fill" style={{ left: `${(minPrice / maxProductPrice) * 100}%`, width: `${((maxPrice - minPrice) / maxProductPrice) * 100}%` }} />
+            <input type="range" min="0" max={maxProductPrice} value={minPrice} onChange={(e) => setMinPrice(Math.min(Number(e.target.value), maxPrice - 10))} className="price-slider" />
+            <input type="range" min="0" max={maxProductPrice} value={maxPrice} onChange={(e) => setMaxPrice(Math.max(Number(e.target.value), minPrice + 10))} className="price-slider" />
           </div>
           <div className="flex justify-between text-sm font-semibold"><span>${minPrice}</span><span>${maxPrice}</span></div>
         </div>
@@ -161,7 +165,7 @@ function Categories() {
               <h1 className="text-lg md:text-2xl font-bold">Casual</h1>
             </div>
             <div className="flex items-center gap-2">
-              <p className="text-xs md:text-sm text-black/60">Showing 1-10 of {filtered.length} Products</p>
+              <p className="text-xs md:text-sm text-black/60">Showing {startItem}-{endItem} of {filtered.length} Products</p>
               <button
                 className="md:hidden flex items-center gap-2 px-3 h-9 rounded-[62px] border border-black/20 text-sm font-medium"
                 onClick={() => setMobileFiltersOpen(true)}
@@ -187,7 +191,6 @@ function Categories() {
             pagination={{ clickable: true }}
             onSlideChange={(s) => setCurrentSlide(s.activeIndex)}
             className="categories-swiper flex-wrap"
-            styles={{  width: "100%", display: "flex", flexWrap: "wrap", gap: "30px" }}
           >
             {pages.map((page, pageIndex) => (
               <SwiperSlide key={pageIndex}>
