@@ -10,6 +10,7 @@ function Footer() {
 
   return (
     <footer className='w-full px-4 md:px-[90px] pt-[80px] md:pt-[140px] pb-8 md:pb-10 mt-16 md:mt-[200px] bg-[#F0F0F0] relative'>
+          <ToastContainer />
       <div className="w-full max-w-[1240px] mx-auto px-6 md:px-16 py-8 md:py-[43px] rounded-[20px] bg-black flex flex-col md:flex-row items-start md:items-center justify-between gap-6 absolute top-[-60px] md:top-[-100px] left-1/2 -translate-x-1/2">
         <h1 className="w-full md:w-[551px] text-white text-[24px] md:text-[40px] font-bold leading-[30px] md:leading-[45px]" style={{ fontFamily: 'Integral CF' }}>
           STAY UPTO DATE ABOUT OUR LATEST OFFERS
@@ -26,7 +27,6 @@ function Footer() {
           >
             Subscribe to Newsletter
           </button>
-          <ToastContainer />
         </div>
       </div>
 
