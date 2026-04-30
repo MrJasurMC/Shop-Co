@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import social from "./assets/images/social.png"
 import pays from "./assets/images/pays.png"
 import { TfiEmail } from "react-icons/tfi";
+import { FaFacebookF, FaInstagram, FaGithub, FaTwitter } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 
 function Footer() {
-  const notify = () => toast.dark("Thanks! We'll keep you updated 🎉");
+  const notify = () => toast.success("Thank you for subscribing to our newsletter!");
+
   return (
     <footer className='w-full px-4 md:px-[90px] pt-[80px] md:pt-[140px] pb-8 md:pb-10 mt-16 md:mt-[200px] bg-[#F0F0F0] relative'>
       <div className="w-full max-w-[1240px] mx-auto px-6 md:px-16 py-8 md:py-[43px] rounded-[20px] bg-black flex flex-col md:flex-row items-start md:items-center justify-between gap-6 absolute top-[-60px] md:top-[-100px] left-1/2 -translate-x-1/2">
@@ -19,6 +20,7 @@ function Footer() {
             <input type="text" className="w-full border-0 bg-transparent placeholder:text-sm placeholder:text-black/40 focus:outline-none" placeholder='Enter your email address' />
           </div>
           <button
+            type="button"
             className='w-full md:w-[349px] h-12 rounded-[62px] bg-white flex items-center justify-center text-sm md:text-base font-medium cursor-pointer border-0 transition-all duration-200 hover:bg-white/90 active:scale-[0.98]'
             onClick={notify}
           >
@@ -32,7 +34,20 @@ function Footer() {
         <div className="w-full md:w-[248px] flex flex-col gap-4 md:gap-5">
           <Link to="/" className="text-[28px] md:text-[32px] font-bold text-black hover:opacity-70 transition-opacity" style={{ fontFamily: 'Integral CF' }}>SHOP.CO</Link>
           <p className="text-black/60 text-sm leading-[22px]">We have clothes that suits your style and which you're proud to wear. From women to men.</p>
-          <img src={social} alt="social links" className="w-[120px] md:w-auto" />
+          <div className="w-full flex items-center gap-4">
+            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-black border border-[#00000033]  cursor-pointer hover:bg-black hover:text-white transition-colors">
+              <FaTwitter />
+            </div>
+            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-black border border-[#00000033]  cursor-pointer hover:bg-black hover:text-white transition-colors">
+              <FaFacebookF />
+            </div>
+            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-black border border-[#00000033]  cursor-pointer hover:bg-black hover:text-white transition-colors">
+              <FaInstagram />
+            </div>
+            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-black border border-[#00000033] cursor-pointer hover:bg-black hover:text-white transition-colors">
+              <FaGithub />
+            </div>
+          </div>
         </div>
         <div className="w-full grid grid-cols-2 md:flex md:flex-1 md:justify-between gap-6 md:gap-0">
           {[

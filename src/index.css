@@ -27,14 +27,6 @@
   }
 }
 
-.scrollbar-none {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.scrollbar-none::-webkit-scrollbar {
-  display: none;
-}
-
 .price-track {
   position: relative;
   height: 4px;
@@ -53,10 +45,8 @@
   width: 100%;
   top: 50%;
   transform: translateY(-50%);
-  -webkit-appearance: none;
   appearance: none;
   background: transparent;
-  pointer-events: none;
   height: 20px;
 }
 .price-slider::-webkit-slider-thumb {
@@ -66,37 +56,17 @@
   height: 20px;
   border-radius: 50%;
   background: black;
-  pointer-events: all;
-  cursor: pointer;
-  border: 2px solid white;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-}
-.price-slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: black;
-  pointer-events: all;
   cursor: pointer;
   border: 2px solid white;
 }
-
 .categories-swiper {
   width: 100%;
 }
 .categories-swiper .swiper-button-next,
 .categories-swiper .swiper-button-prev {
   color: black;
-  background: white;
-  border-radius: 50%;
   width: 36px;
   height: 36px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-.categories-swiper .swiper-button-next::after,
-.categories-swiper .swiper-button-prev::after {
-  font-size: 14px;
-  font-weight: bold;
 }
 .categories-swiper .swiper-pagination-bullet-active {
   background: black;
