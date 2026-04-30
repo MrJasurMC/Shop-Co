@@ -4,7 +4,7 @@ import { IoIosArrowForward, IoIosArrowUp } from "react-icons/io"
 import { LuSlidersVertical } from "react-icons/lu"
 import { FaCheck, FaXmark } from "react-icons/fa6"
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination } from 'swiper/modules'
+import { Navigation, Pagination , Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -189,6 +189,7 @@ function Categories({ text = " " }) {
           <Swiper
             modules={[Navigation, Pagination]}
             navigation
+            autoplay={{ delay: 1000 }}
             pagination={{ clickable: true }}
             onSlideChange={(s) => setCurrentSlide(s.activeIndex)}
             className="categories-swiper flex-wrap"

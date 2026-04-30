@@ -54,7 +54,7 @@ function Header({ setText }) {
         <nav className="hidden md:flex items-center gap-6 flex-1">
           <ul className='flex items-center gap-6'>
             {[
-              { label: 'Shop', to: '/categories' },
+              { label: 'Shop', to: '/' },
               { label: 'On Sale', to: '/categories' },
               { label: 'New Arrivals', to: '/' },
               { label: 'Brands', to: '/' },
