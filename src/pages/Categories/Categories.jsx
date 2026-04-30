@@ -18,7 +18,7 @@ function chunkArray(arr, size) {
   return chunks
 }
 
-function Categories() {
+function Categories({ text = " " }) {
   const prices = products.products.map(p => Number(p.price))
   const maxProductPrice = Math.max(...prices)
 
@@ -38,7 +38,8 @@ function Categories() {
     const matchesSize  = activeSize   === "All" || item.sizes?.includes(activeSize)
     const matchesStyle = activeStyle  === "All" || item.dressStyle?.includes(activeStyle)
     const matchesPrice = price >= minPrice && price <= maxPrice
-    return matchesType && matchesColor && matchesSize && matchesStyle && matchesPrice
+    const matchesSearch = item.name.toLowerCase().includes(text.toLowerCase());
+    return matchesType && matchesColor && matchesSize && matchesStyle && matchesPrice && matchesSearch
   })
 
   const pages = chunkArray(filtered, ITEMS_PER_PAGE)

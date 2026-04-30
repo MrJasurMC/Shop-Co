@@ -6,12 +6,22 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { RiMenu3Line } from "react-icons/ri";
 import { Link } from "react-router-dom"
 import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
-function Header() {
+function Header({ setText }) {
   const [invisible, setInvisible] = useState(true);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const items = useSelector(state => state.cart.items);
   const cartCount = items.reduce((sum, item) => sum + item.quantity, 0);
+  const navigate = useNavigate();
+
+  const handleSearch = (e) => {
+    const value = e.target.value;
+    setText(value);
+    if (value.trim()) {
+      navigate('/categories');
+    }
+  };
 
   return (
     <header className='w-full'>
@@ -61,7 +71,7 @@ function Header() {
           </ul>
           <div className="flex-1 h-12 px-4 flex items-center gap-3 bg-[#F0F0F0] rounded-[62px] transition-all duration-200 focus-within:ring-2 focus-within:ring-black/20">
             <FaSearch className='text-black/40 text-lg flex-shrink-0' />
-            <input type="text" className="w-full h-full bg-transparent border-0 text-base placeholder:text-black/40 focus:outline-none" placeholder='Search for products...' />
+            <input type="text" className="w-full h-full bg-transparent border-0 text-base placeholder:text-black/40 focus:outline-none" placeholder='Search for products...' onChange={handleSearch} />
           </div>
           <div className="flex items-center gap-[14px]">
             <Link to="/cart" className="text-black text-xl relative hover:text-black/60 transition-colors">
