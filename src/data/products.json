@@ -1,0 +1,3430 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic White Tee",
+      "type": "T-shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "yellow",
+        "red"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 95,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco1/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco1a/300/400",
+        "https://picsum.photos/seed/shopco1b/300/400",
+        "https://picsum.photos/seed/shopco1c/300/400"
+      ],
+      "oldPrice": 125,
+      "discount": 20
+    },
+    {
+      "id": 2,
+      "name": "Oversized Graphic T-shirt",
+      "type": "T-shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "orange",
+        "white",
+        "purple",
+        "red"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 125,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco2/300/400",
+      "description": "Soft premium fabric with a relaxed fit. A wardrobe essential for any season.",
+      "images": [
+        "https://picsum.photos/seed/shopco2a/300/400",
+        "https://picsum.photos/seed/shopco2b/300/400",
+        "https://picsum.photos/seed/shopco2c/300/400"
+      ],
+      "oldPrice": 145,
+      "discount": 30
+    },
+    {
+      "id": 3,
+      "name": "Vintage Band Tee",
+      "type": "T-shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "red",
+        "black",
+        "purple"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 195,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco3/300/400",
+      "description": "A bold graphic piece that adds personality to any outfit. Machine washable and durable.",
+      "images": [
+        "https://picsum.photos/seed/shopco3a/300/400",
+        "https://picsum.photos/seed/shopco3b/300/400",
+        "https://picsum.photos/seed/shopco3c/300/400"
+      ],
+      "oldPrice": 225,
+      "discount": 15
+    },
+    {
+      "id": 4,
+      "name": "Plain Crew Neck Tee",
+      "type": "T-shirts",
+      "dressStyle": "Formal",
+      "colors": [
+        "red",
+        "purple",
+        "black",
+        "aqua"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 70,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco4/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco4a/300/400",
+        "https://picsum.photos/seed/shopco4b/300/400",
+        "https://picsum.photos/seed/shopco4c/300/400"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tie-Dye T-shirt",
+      "type": "T-shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "red",
+        "purple"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 270,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco5/300/400",
+      "description": "Soft premium fabric with a relaxed fit. A wardrobe essential for any season.",
+      "images": [
+        "https://picsum.photos/seed/shopco5a/300/400",
+        "https://picsum.photos/seed/shopco5b/300/400",
+        "https://picsum.photos/seed/shopco5c/300/400"
+      ],
+      "oldPrice": 290,
+      "discount": 20
+    },
+    {
+      "id": 6,
+      "name": "Logo Print T-shirt",
+      "type": "T-shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "yellow",
+        "white",
+        "orange",
+        "red"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ],
+      "price": 170,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco6/300/400",
+      "description": "Soft premium fabric with a relaxed fit. A wardrobe essential for any season.",
+      "images": [
+        "https://picsum.photos/seed/shopco6a/300/400",
+        "https://picsum.photos/seed/shopco6b/300/400",
+        "https://picsum.photos/seed/shopco6c/300/400"
+      ],
+      "oldPrice": 190,
+      "discount": 20
+    },
+    {
+      "id": 7,
+      "name": "Pocket Tee",
+      "type": "T-shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "orange",
+        "green"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 160,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco7/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco7a/300/400",
+        "https://picsum.photos/seed/shopco7b/300/400",
+        "https://picsum.photos/seed/shopco7c/300/400"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ribbed Slim Tee",
+      "type": "T-shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "orange",
+        "pink",
+        "purple"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 240,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco8/300/400",
+      "description": "Soft premium fabric with a relaxed fit. A wardrobe essential for any season.",
+      "images": [
+        "https://picsum.photos/seed/shopco8a/300/400",
+        "https://picsum.photos/seed/shopco8b/300/400",
+        "https://picsum.photos/seed/shopco8c/300/400"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Drop Shoulder Tee",
+      "type": "T-shirts",
+      "dressStyle": "Formal",
+      "colors": [
+        "black",
+        "purple",
+        "white"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 295,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco9/300/400",
+      "description": "Lightweight and versatile. Pairs well with jeans, shorts, or joggers.",
+      "images": [
+        "https://picsum.photos/seed/shopco9a/300/400",
+        "https://picsum.photos/seed/shopco9b/300/400",
+        "https://picsum.photos/seed/shopco9c/300/400"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Acid Wash Tee",
+      "type": "T-shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "yellow",
+        "purple",
+        "red",
+        "orange"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ],
+      "price": 300,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco10/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco10a/300/400",
+        "https://picsum.photos/seed/shopco10b/300/400",
+        "https://picsum.photos/seed/shopco10c/300/400"
+      ],
+      "oldPrice": 330,
+      "discount": 10
+    },
+    {
+      "id": 11,
+      "name": "Distressed Print Tee",
+      "type": "T-shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "blue",
+        "red",
+        "aqua",
+        "orange"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 290,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco11/300/400",
+      "description": "A bold graphic piece that adds personality to any outfit. Machine washable and durable.",
+      "images": [
+        "https://picsum.photos/seed/shopco11a/300/400",
+        "https://picsum.photos/seed/shopco11b/300/400",
+        "https://picsum.photos/seed/shopco11c/300/400"
+      ],
+      "oldPrice": 330,
+      "discount": 30
+    },
+    {
+      "id": 12,
+      "name": "Essential Cotton Tee",
+      "type": "T-shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "white",
+        "orange",
+        "yellow",
+        "pink"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 300,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco12/300/400",
+      "description": "Lightweight and versatile. Pairs well with jeans, shorts, or joggers.",
+      "images": [
+        "https://picsum.photos/seed/shopco12a/300/400",
+        "https://picsum.photos/seed/shopco12b/300/400",
+        "https://picsum.photos/seed/shopco12c/300/400"
+      ],
+      "oldPrice": 340,
+      "discount": 10
+    },
+    {
+      "id": 13,
+      "name": "Longline T-shirt",
+      "type": "T-shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "orange",
+        "green",
+        "black"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ],
+      "price": 95,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco13/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco13a/300/400",
+        "https://picsum.photos/seed/shopco13b/300/400",
+        "https://picsum.photos/seed/shopco13c/300/400"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Cropped Graphic Tee",
+      "type": "T-shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 230,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco14/300/400",
+      "description": "Soft premium fabric with a relaxed fit. A wardrobe essential for any season.",
+      "images": [
+        "https://picsum.photos/seed/shopco14a/300/400",
+        "https://picsum.photos/seed/shopco14b/300/400",
+        "https://picsum.photos/seed/shopco14c/300/400"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Bold Statement Tee",
+      "type": "T-shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "aqua",
+        "purple"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 300,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco15/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco15a/300/400",
+        "https://picsum.photos/seed/shopco15b/300/400",
+        "https://picsum.photos/seed/shopco15c/300/400"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Washed Out Tee",
+      "type": "T-shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "orange",
+        "green",
+        "red",
+        "blue"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 130,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco16/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco16a/300/400",
+        "https://picsum.photos/seed/shopco16b/300/400",
+        "https://picsum.photos/seed/shopco16c/300/400"
+      ],
+      "oldPrice": 160,
+      "discount": 10
+    },
+    {
+      "id": 17,
+      "name": "Color Block Tee",
+      "type": "T-shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "pink",
+        "orange",
+        "yellow",
+        "blue"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 165,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco17/300/400",
+      "description": "Lightweight and versatile. Pairs well with jeans, shorts, or joggers.",
+      "images": [
+        "https://picsum.photos/seed/shopco17a/300/400",
+        "https://picsum.photos/seed/shopco17b/300/400",
+        "https://picsum.photos/seed/shopco17c/300/400"
+      ],
+      "oldPrice": 205,
+      "discount": 15
+    },
+    {
+      "id": 18,
+      "name": "Retro Print T-shirt",
+      "type": "T-shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "purple",
+        "pink",
+        "green"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ],
+      "price": 90,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco18/300/400",
+      "description": "A bold graphic piece that adds personality to any outfit. Machine washable and durable.",
+      "images": [
+        "https://picsum.photos/seed/shopco18a/300/400",
+        "https://picsum.photos/seed/shopco18b/300/400",
+        "https://picsum.photos/seed/shopco18c/300/400"
+      ],
+      "oldPrice": 130,
+      "discount": 25
+    },
+    {
+      "id": 19,
+      "name": "Minimalist Tee",
+      "type": "T-shirts",
+      "dressStyle": "Formal",
+      "colors": [
+        "purple",
+        "yellow"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 90,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco19/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco19a/300/400",
+        "https://picsum.photos/seed/shopco19b/300/400",
+        "https://picsum.photos/seed/shopco19c/300/400"
+      ],
+      "oldPrice": 140,
+      "discount": 15
+    },
+    {
+      "id": 20,
+      "name": "Art Print T-shirt",
+      "type": "T-shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "red",
+        "green",
+        "white",
+        "pink"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 315,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco20/300/400",
+      "description": "Lightweight and versatile. Pairs well with jeans, shorts, or joggers.",
+      "images": [
+        "https://picsum.photos/seed/shopco20a/300/400",
+        "https://picsum.photos/seed/shopco20b/300/400",
+        "https://picsum.photos/seed/shopco20c/300/400"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Striped Crew Tee",
+      "type": "T-shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "yellow",
+        "purple"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 125,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco21/300/400",
+      "description": "Lightweight and versatile. Pairs well with jeans, shorts, or joggers.",
+      "images": [
+        "https://picsum.photos/seed/shopco21a/300/400",
+        "https://picsum.photos/seed/shopco21b/300/400",
+        "https://picsum.photos/seed/shopco21c/300/400"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Flag Print Tee",
+      "type": "T-shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "white",
+        "pink",
+        "yellow",
+        "red"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 195,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco22/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco22a/300/400",
+        "https://picsum.photos/seed/shopco22b/300/400",
+        "https://picsum.photos/seed/shopco22c/300/400"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Skate Graphic Tee",
+      "type": "T-shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "white",
+        "yellow",
+        "green",
+        "aqua"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 160,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco23/300/400",
+      "description": "A comfortable everyday tee made from 100% breathable cotton. Perfect for casual outings.",
+      "images": [
+        "https://picsum.photos/seed/shopco23a/300/400",
+        "https://picsum.photos/seed/shopco23b/300/400",
+        "https://picsum.photos/seed/shopco23c/300/400"
+      ],
+      "oldPrice": 210,
+      "discount": 30
+    },
+    {
+      "id": 24,
+      "name": "Floral Print Tee",
+      "type": "T-shirts",
+      "dressStyle": "Formal",
+      "colors": [
+        "orange",
+        "green",
+        "red",
+        "black"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 135,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco24/300/400",
+      "description": "A bold graphic piece that adds personality to any outfit. Machine washable and durable.",
+      "images": [
+        "https://picsum.photos/seed/shopco24a/300/400",
+        "https://picsum.photos/seed/shopco24b/300/400",
+        "https://picsum.photos/seed/shopco24c/300/400"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Chino Shorts",
+      "type": "Shorts",
+      "dressStyle": "Formal",
+      "colors": [
+        "red",
+        "green",
+        "pink"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ],
+      "price": 140,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco25/300/400",
+      "description": "A relaxed cut with functional pockets. Versatile enough for any occasion.",
+      "images": [
+        "https://picsum.photos/seed/shopco25a/300/400",
+        "https://picsum.photos/seed/shopco25b/300/400",
+        "https://picsum.photos/seed/shopco25c/300/400"
+      ],
+      "oldPrice": 190,
+      "discount": 20
+    },
+    {
+      "id": 26,
+      "name": "Drawstring Linen Shorts",
+      "type": "Shorts",
+      "dressStyle": "Party",
+      "colors": [
+        "blue",
+        "aqua"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 170,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco26/300/400",
+      "description": "Lightweight and breathable \u2014 ideal for warm weather and active days.",
+      "images": [
+        "https://picsum.photos/seed/shopco26a/300/400",
+        "https://picsum.photos/seed/shopco26b/300/400",
+        "https://picsum.photos/seed/shopco26c/300/400"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Cargo Utility Shorts",
+      "type": "Shorts",
+      "dressStyle": "Formal",
+      "colors": [
+        "red",
+        "black",
+        "yellow"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 235,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco27/300/400",
+      "description": "A relaxed cut with functional pockets. Versatile enough for any occasion.",
+      "images": [
+        "https://picsum.photos/seed/shopco27a/300/400",
+        "https://picsum.photos/seed/shopco27b/300/400",
+        "https://picsum.photos/seed/shopco27c/300/400"
+      ],
+      "oldPrice": 265,
+      "discount": 10
+    },
+    {
+      "id": 28,
+      "name": "Athletic Running Shorts",
+      "type": "Shorts",
+      "dressStyle": "Gym",
+      "colors": [
+        "white",
+        "pink",
+        "aqua"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ],
+      "price": 275,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco28/300/400",
+      "description": "A relaxed cut with functional pockets. Versatile enough for any occasion.",
+      "images": [
+        "https://picsum.photos/seed/shopco28a/300/400",
+        "https://picsum.photos/seed/shopco28b/300/400",
+        "https://picsum.photos/seed/shopco28c/300/400"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Denim Cut-Off Shorts",
+      "type": "Shorts",
+      "dressStyle": "Casual",
+      "colors": [
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 60,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco29/300/400",
+      "description": "Lightweight and breathable \u2014 ideal for warm weather and active days.",
+      "images": [
+        "https://picsum.photos/seed/shopco29a/300/400",
+        "https://picsum.photos/seed/shopco29b/300/400",
+        "https://picsum.photos/seed/shopco29c/300/400"
+      ],
+      "oldPrice": 100,
+      "discount": 15
+    },
+    {
+      "id": 30,
+      "name": "Swim Trunks",
+      "type": "Shorts",
+      "dressStyle": "Casual",
+      "colors": [
+        "black",
+        "white",
+        "yellow"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 105,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco30/300/400",
+      "description": "A relaxed cut with functional pockets. Versatile enough for any occasion.",
+      "images": [
+        "https://picsum.photos/seed/shopco30a/300/400",
+        "https://picsum.photos/seed/shopco30b/300/400",
+        "https://picsum.photos/seed/shopco30c/300/400"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Pleated Shorts",
+      "type": "Shorts",
+      "dressStyle": "Party",
+      "colors": [
+        "blue",
+        "orange"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 310,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco31/300/400",
+      "description": "Quick-drying fabric with a comfortable waistband. Built for movement.",
+      "images": [
+        "https://picsum.photos/seed/shopco31a/300/400",
+        "https://picsum.photos/seed/shopco31b/300/400",
+        "https://picsum.photos/seed/shopco31c/300/400"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Board Shorts",
+      "type": "Shorts",
+      "dressStyle": "Gym",
+      "colors": [
+        "purple",
+        "green"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 295,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco32/300/400",
+      "description": "Casual comfort meets clean styling. Great for weekends and outdoor activities.",
+      "images": [
+        "https://picsum.photos/seed/shopco32a/300/400",
+        "https://picsum.photos/seed/shopco32b/300/400",
+        "https://picsum.photos/seed/shopco32c/300/400"
+      ],
+      "oldPrice": 325,
+      "discount": 15
+    },
+    {
+      "id": 33,
+      "name": "Knit Lounge Shorts",
+      "type": "Shorts",
+      "dressStyle": "Formal",
+      "colors": [
+        "purple",
+        "green"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 110,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco33/300/400",
+      "description": "Quick-drying fabric with a comfortable waistband. Built for movement.",
+      "images": [
+        "https://picsum.photos/seed/shopco33a/300/400",
+        "https://picsum.photos/seed/shopco33b/300/400",
+        "https://picsum.photos/seed/shopco33c/300/400"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Tailored Bermuda Shorts",
+      "type": "Shorts",
+      "dressStyle": "Party",
+      "colors": [
+        "orange",
+        "green"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 155,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco34/300/400",
+      "description": "A relaxed cut with functional pockets. Versatile enough for any occasion.",
+      "images": [
+        "https://picsum.photos/seed/shopco34a/300/400",
+        "https://picsum.photos/seed/shopco34b/300/400",
+        "https://picsum.photos/seed/shopco34c/300/400"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Jogger Shorts",
+      "type": "Shorts",
+      "dressStyle": "Casual",
+      "colors": [
+        "blue",
+        "white",
+        "purple"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 80,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco35/300/400",
+      "description": "A relaxed cut with functional pockets. Versatile enough for any occasion.",
+      "images": [
+        "https://picsum.photos/seed/shopco35a/300/400",
+        "https://picsum.photos/seed/shopco35b/300/400",
+        "https://picsum.photos/seed/shopco35c/300/400"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Printed Shorts",
+      "type": "Shorts",
+      "dressStyle": "Gym",
+      "colors": [
+        "green",
+        "red",
+        "purple"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 245,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco36/300/400",
+      "description": "Lightweight and breathable \u2014 ideal for warm weather and active days.",
+      "images": [
+        "https://picsum.photos/seed/shopco36a/300/400",
+        "https://picsum.photos/seed/shopco36b/300/400",
+        "https://picsum.photos/seed/shopco36c/300/400"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "High-Waist Shorts",
+      "type": "Shorts",
+      "dressStyle": "Gym",
+      "colors": [
+        "white",
+        "black"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 240,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco37/300/400",
+      "description": "Lightweight and breathable \u2014 ideal for warm weather and active days.",
+      "images": [
+        "https://picsum.photos/seed/shopco37a/300/400",
+        "https://picsum.photos/seed/shopco37b/300/400",
+        "https://picsum.photos/seed/shopco37c/300/400"
+      ],
+      "oldPrice": 290,
+      "discount": 10
+    },
+    {
+      "id": 38,
+      "name": "Cycling Shorts",
+      "type": "Shorts",
+      "dressStyle": "Gym",
+      "colors": [
+        "red",
+        "aqua",
+        "white",
+        "blue"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 165,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco38/300/400",
+      "description": "A relaxed cut with functional pockets. Versatile enough for any occasion.",
+      "images": [
+        "https://picsum.photos/seed/shopco38a/300/400",
+        "https://picsum.photos/seed/shopco38b/300/400",
+        "https://picsum.photos/seed/shopco38c/300/400"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Linen Drawstring Shorts",
+      "type": "Shorts",
+      "dressStyle": "Party",
+      "colors": [
+        "black",
+        "aqua",
+        "purple",
+        "white"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 100,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco39/300/400",
+      "description": "Casual comfort meets clean styling. Great for weekends and outdoor activities.",
+      "images": [
+        "https://picsum.photos/seed/shopco39a/300/400",
+        "https://picsum.photos/seed/shopco39b/300/400",
+        "https://picsum.photos/seed/shopco39c/300/400"
+      ],
+      "oldPrice": 130,
+      "discount": 25
+    },
+    {
+      "id": 40,
+      "name": "Striped Shorts",
+      "type": "Shorts",
+      "dressStyle": "Formal",
+      "colors": [
+        "blue",
+        "pink",
+        "white",
+        "orange"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 310,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco40/300/400",
+      "description": "Lightweight and breathable \u2014 ideal for warm weather and active days.",
+      "images": [
+        "https://picsum.photos/seed/shopco40a/300/400",
+        "https://picsum.photos/seed/shopco40b/300/400",
+        "https://picsum.photos/seed/shopco40c/300/400"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Twill Shorts",
+      "type": "Shorts",
+      "dressStyle": "Formal",
+      "colors": [
+        "blue",
+        "red",
+        "orange",
+        "black"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 220,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco41/300/400",
+      "description": "Casual comfort meets clean styling. Great for weekends and outdoor activities.",
+      "images": [
+        "https://picsum.photos/seed/shopco41a/300/400",
+        "https://picsum.photos/seed/shopco41b/300/400",
+        "https://picsum.photos/seed/shopco41c/300/400"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Pull-On Shorts",
+      "type": "Shorts",
+      "dressStyle": "Formal",
+      "colors": [
+        "purple",
+        "orange",
+        "black"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ],
+      "price": 70,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco42/300/400",
+      "description": "Casual comfort meets clean styling. Great for weekends and outdoor activities.",
+      "images": [
+        "https://picsum.photos/seed/shopco42a/300/400",
+        "https://picsum.photos/seed/shopco42b/300/400",
+        "https://picsum.photos/seed/shopco42c/300/400"
+      ],
+      "oldPrice": 90,
+      "discount": 25
+    },
+    {
+      "id": 43,
+      "name": "Parachute Shorts",
+      "type": "Shorts",
+      "dressStyle": "Formal",
+      "colors": [
+        "yellow",
+        "white"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 280,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco43/300/400",
+      "description": "Lightweight and breathable \u2014 ideal for warm weather and active days.",
+      "images": [
+        "https://picsum.photos/seed/shopco43a/300/400",
+        "https://picsum.photos/seed/shopco43b/300/400",
+        "https://picsum.photos/seed/shopco43c/300/400"
+      ],
+      "oldPrice": 330,
+      "discount": 10
+    },
+    {
+      "id": 44,
+      "name": "Terry Cloth Shorts",
+      "type": "Shorts",
+      "dressStyle": "Gym",
+      "colors": [
+        "white",
+        "black",
+        "blue",
+        "purple"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ],
+      "price": 100,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco44/300/400",
+      "description": "Casual comfort meets clean styling. Great for weekends and outdoor activities.",
+      "images": [
+        "https://picsum.photos/seed/shopco44a/300/400",
+        "https://picsum.photos/seed/shopco44b/300/400",
+        "https://picsum.photos/seed/shopco44c/300/400"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Woven Shorts",
+      "type": "Shorts",
+      "dressStyle": "Party",
+      "colors": [
+        "aqua",
+        "white"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 210,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco45/300/400",
+      "description": "Quick-drying fabric with a comfortable waistband. Built for movement.",
+      "images": [
+        "https://picsum.photos/seed/shopco45a/300/400",
+        "https://picsum.photos/seed/shopco45b/300/400",
+        "https://picsum.photos/seed/shopco45c/300/400"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Quick-Dry Shorts",
+      "type": "Shorts",
+      "dressStyle": "Gym",
+      "colors": [
+        "white",
+        "red",
+        "yellow"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 285,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco46/300/400",
+      "description": "Casual comfort meets clean styling. Great for weekends and outdoor activities.",
+      "images": [
+        "https://picsum.photos/seed/shopco46a/300/400",
+        "https://picsum.photos/seed/shopco46b/300/400",
+        "https://picsum.photos/seed/shopco46c/300/400"
+      ],
+      "oldPrice": 325,
+      "discount": 20
+    },
+    {
+      "id": 47,
+      "name": "Elasticated Shorts",
+      "type": "Shorts",
+      "dressStyle": "Casual",
+      "colors": [
+        "pink",
+        "purple",
+        "green",
+        "red"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ],
+      "price": 125,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco47/300/400",
+      "description": "Quick-drying fabric with a comfortable waistband. Built for movement.",
+      "images": [
+        "https://picsum.photos/seed/shopco47a/300/400",
+        "https://picsum.photos/seed/shopco47b/300/400",
+        "https://picsum.photos/seed/shopco47c/300/400"
+      ],
+      "oldPrice": 165,
+      "discount": 25
+    },
+    {
+      "id": 48,
+      "name": "Relaxed Shorts",
+      "type": "Shorts",
+      "dressStyle": "Party",
+      "colors": [
+        "purple",
+        "black",
+        "orange"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 60,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco48/300/400",
+      "description": "Quick-drying fabric with a comfortable waistband. Built for movement.",
+      "images": [
+        "https://picsum.photos/seed/shopco48a/300/400",
+        "https://picsum.photos/seed/shopco48b/300/400",
+        "https://picsum.photos/seed/shopco48c/300/400"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Oxford Button-Down Shirt",
+      "type": "Shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "yellow",
+        "white",
+        "green"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 65,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco49/300/400",
+      "description": "Soft fabric with a clean cut. A go-to for any wardrobe.",
+      "images": [
+        "https://picsum.photos/seed/shopco49a/300/400",
+        "https://picsum.photos/seed/shopco49b/300/400",
+        "https://picsum.photos/seed/shopco49c/300/400"
+      ],
+      "oldPrice": 95,
+      "discount": 25
+    },
+    {
+      "id": 50,
+      "name": "Linen Summer Shirt",
+      "type": "Shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "orange",
+        "pink",
+        "blue"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 205,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco50/300/400",
+      "description": "Soft fabric with a clean cut. A go-to for any wardrobe.",
+      "images": [
+        "https://picsum.photos/seed/shopco50a/300/400",
+        "https://picsum.photos/seed/shopco50b/300/400",
+        "https://picsum.photos/seed/shopco50c/300/400"
+      ],
+      "oldPrice": 255,
+      "discount": 20
+    },
+    {
+      "id": 51,
+      "name": "Flannel Plaid Shirt",
+      "type": "Shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "white",
+        "green",
+        "blue",
+        "red"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ],
+      "price": 85,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco51/300/400",
+      "description": "Relaxed weave for warm days. Comfortable enough for all-day wear.",
+      "images": [
+        "https://picsum.photos/seed/shopco51a/300/400",
+        "https://picsum.photos/seed/shopco51b/300/400",
+        "https://picsum.photos/seed/shopco51c/300/400"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Slim Fit Dress Shirt",
+      "type": "Shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "yellow",
+        "pink"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 65,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco52/300/400",
+      "description": "A versatile shirt with classic detailing. Dress it up or keep it casual.",
+      "images": [
+        "https://picsum.photos/seed/shopco52a/300/400",
+        "https://picsum.photos/seed/shopco52b/300/400",
+        "https://picsum.photos/seed/shopco52c/300/400"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Oversized Denim Shirt",
+      "type": "Shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "aqua",
+        "red"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 175,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco53/300/400",
+      "description": "Soft fabric with a clean cut. A go-to for any wardrobe.",
+      "images": [
+        "https://picsum.photos/seed/shopco53a/300/400",
+        "https://picsum.photos/seed/shopco53b/300/400",
+        "https://picsum.photos/seed/shopco53c/300/400"
+      ],
+      "oldPrice": 195,
+      "discount": 30
+    },
+    {
+      "id": 54,
+      "name": "Floral Hawaiian Shirt",
+      "type": "Shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "aqua",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 120,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco54/300/400",
+      "description": "A versatile shirt with classic detailing. Dress it up or keep it casual.",
+      "images": [
+        "https://picsum.photos/seed/shopco54a/300/400",
+        "https://picsum.photos/seed/shopco54b/300/400",
+        "https://picsum.photos/seed/shopco54c/300/400"
+      ],
+      "oldPrice": 140,
+      "discount": 15
+    },
+    {
+      "id": 55,
+      "name": "Classic White Formal Shirt",
+      "type": "Shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "purple",
+        "blue"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 190,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco55/300/400",
+      "description": "Relaxed weave for warm days. Comfortable enough for all-day wear.",
+      "images": [
+        "https://picsum.photos/seed/shopco55a/300/400",
+        "https://picsum.photos/seed/shopco55b/300/400",
+        "https://picsum.photos/seed/shopco55c/300/400"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Mandarin Collar Shirt",
+      "type": "Shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "black",
+        "white",
+        "pink"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ],
+      "price": 225,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco56/300/400",
+      "description": "A versatile shirt with classic detailing. Dress it up or keep it casual.",
+      "images": [
+        "https://picsum.photos/seed/shopco56a/300/400",
+        "https://picsum.photos/seed/shopco56b/300/400",
+        "https://picsum.photos/seed/shopco56c/300/400"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Printed Camp Collar Shirt",
+      "type": "Shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "aqua",
+        "pink"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 135,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco57/300/400",
+      "description": "A versatile shirt with classic detailing. Dress it up or keep it casual.",
+      "images": [
+        "https://picsum.photos/seed/shopco57a/300/400",
+        "https://picsum.photos/seed/shopco57b/300/400",
+        "https://picsum.photos/seed/shopco57c/300/400"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Poplin Slim Shirt",
+      "type": "Shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "pink",
+        "orange"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 215,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco58/300/400",
+      "description": "A versatile shirt with classic detailing. Dress it up or keep it casual.",
+      "images": [
+        "https://picsum.photos/seed/shopco58a/300/400",
+        "https://picsum.photos/seed/shopco58b/300/400",
+        "https://picsum.photos/seed/shopco58c/300/400"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Seersucker Stripe Shirt",
+      "type": "Shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "green",
+        "white",
+        "orange",
+        "black"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 280,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco59/300/400",
+      "description": "Relaxed weave for warm days. Comfortable enough for all-day wear.",
+      "images": [
+        "https://picsum.photos/seed/shopco59a/300/400",
+        "https://picsum.photos/seed/shopco59b/300/400",
+        "https://picsum.photos/seed/shopco59c/300/400"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Utility Patch Shirt",
+      "type": "Shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "pink",
+        "green",
+        "red"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 210,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco60/300/400",
+      "description": "Relaxed weave for warm days. Comfortable enough for all-day wear.",
+      "images": [
+        "https://picsum.photos/seed/shopco60a/300/400",
+        "https://picsum.photos/seed/shopco60b/300/400",
+        "https://picsum.photos/seed/shopco60c/300/400"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Chambray Work Shirt",
+      "type": "Shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "white",
+        "black",
+        "blue"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 270,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco61/300/400",
+      "description": "Soft fabric with a clean cut. A go-to for any wardrobe.",
+      "images": [
+        "https://picsum.photos/seed/shopco61a/300/400",
+        "https://picsum.photos/seed/shopco61b/300/400",
+        "https://picsum.photos/seed/shopco61c/300/400"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Dobby Texture Shirt",
+      "type": "Shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "red",
+        "white",
+        "yellow"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 155,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco62/300/400",
+      "description": "A versatile shirt with classic detailing. Dress it up or keep it casual.",
+      "images": [
+        "https://picsum.photos/seed/shopco62a/300/400",
+        "https://picsum.photos/seed/shopco62b/300/400",
+        "https://picsum.photos/seed/shopco62c/300/400"
+      ],
+      "oldPrice": 185,
+      "discount": 10
+    },
+    {
+      "id": 63,
+      "name": "Cotton Twill Shirt",
+      "type": "Shirts",
+      "dressStyle": "Formal",
+      "colors": [
+        "black",
+        "aqua",
+        "red",
+        "purple"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 245,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco63/300/400",
+      "description": "A versatile shirt with classic detailing. Dress it up or keep it casual.",
+      "images": [
+        "https://picsum.photos/seed/shopco63a/300/400",
+        "https://picsum.photos/seed/shopco63b/300/400",
+        "https://picsum.photos/seed/shopco63c/300/400"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Herringbone Formal Shirt",
+      "type": "Shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "green",
+        "black",
+        "aqua"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 155,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco64/300/400",
+      "description": "A crisp, tailored shirt suitable for office or smart-casual occasions.",
+      "images": [
+        "https://picsum.photos/seed/shopco64a/300/400",
+        "https://picsum.photos/seed/shopco64b/300/400",
+        "https://picsum.photos/seed/shopco64c/300/400"
+      ],
+      "oldPrice": 185,
+      "discount": 30
+    },
+    {
+      "id": 65,
+      "name": "Resort Print Shirt",
+      "type": "Shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 150,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco65/300/400",
+      "description": "A crisp, tailored shirt suitable for office or smart-casual occasions.",
+      "images": [
+        "https://picsum.photos/seed/shopco65a/300/400",
+        "https://picsum.photos/seed/shopco65b/300/400",
+        "https://picsum.photos/seed/shopco65c/300/400"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Classic Oxford Shirt",
+      "type": "Shirts",
+      "dressStyle": "Casual",
+      "colors": [
+        "black",
+        "aqua"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 215,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco66/300/400",
+      "description": "Soft fabric with a clean cut. A go-to for any wardrobe.",
+      "images": [
+        "https://picsum.photos/seed/shopco66a/300/400",
+        "https://picsum.photos/seed/shopco66b/300/400",
+        "https://picsum.photos/seed/shopco66c/300/400"
+      ],
+      "oldPrice": 245,
+      "discount": 10
+    },
+    {
+      "id": 67,
+      "name": "Micro Check Shirt",
+      "type": "Shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "white",
+        "purple"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ],
+      "price": 250,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco67/300/400",
+      "description": "Soft fabric with a clean cut. A go-to for any wardrobe.",
+      "images": [
+        "https://picsum.photos/seed/shopco67a/300/400",
+        "https://picsum.photos/seed/shopco67b/300/400",
+        "https://picsum.photos/seed/shopco67c/300/400"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Tencel Relaxed Shirt",
+      "type": "Shirts",
+      "dressStyle": "Formal",
+      "colors": [
+        "red",
+        "orange",
+        "white",
+        "yellow"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 240,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco68/300/400",
+      "description": "Relaxed weave for warm days. Comfortable enough for all-day wear.",
+      "images": [
+        "https://picsum.photos/seed/shopco68a/300/400",
+        "https://picsum.photos/seed/shopco68b/300/400",
+        "https://picsum.photos/seed/shopco68c/300/400"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Spread Collar Shirt",
+      "type": "Shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "black",
+        "pink",
+        "aqua",
+        "green"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 80,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco69/300/400",
+      "description": "Soft fabric with a clean cut. A go-to for any wardrobe.",
+      "images": [
+        "https://picsum.photos/seed/shopco69a/300/400",
+        "https://picsum.photos/seed/shopco69b/300/400",
+        "https://picsum.photos/seed/shopco69c/300/400"
+      ],
+      "oldPrice": 130,
+      "discount": 25
+    },
+    {
+      "id": 70,
+      "name": "End-on-End Shirt",
+      "type": "Shirts",
+      "dressStyle": "Formal",
+      "colors": [
+        "red",
+        "white",
+        "orange"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 275,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco70/300/400",
+      "description": "A crisp, tailored shirt suitable for office or smart-casual occasions.",
+      "images": [
+        "https://picsum.photos/seed/shopco70a/300/400",
+        "https://picsum.photos/seed/shopco70b/300/400",
+        "https://picsum.photos/seed/shopco70c/300/400"
+      ],
+      "oldPrice": 305,
+      "discount": 20
+    },
+    {
+      "id": 71,
+      "name": "Brushed Flannel Shirt",
+      "type": "Shirts",
+      "dressStyle": "Gym",
+      "colors": [
+        "black",
+        "aqua",
+        "pink",
+        "green"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 110,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco71/300/400",
+      "description": "A versatile shirt with classic detailing. Dress it up or keep it casual.",
+      "images": [
+        "https://picsum.photos/seed/shopco71a/300/400",
+        "https://picsum.photos/seed/shopco71b/300/400",
+        "https://picsum.photos/seed/shopco71c/300/400"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Dobby Dot Shirt",
+      "type": "Shirts",
+      "dressStyle": "Party",
+      "colors": [
+        "black",
+        "green"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 230,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco72/300/400",
+      "description": "A crisp, tailored shirt suitable for office or smart-casual occasions.",
+      "images": [
+        "https://picsum.photos/seed/shopco72a/300/400",
+        "https://picsum.photos/seed/shopco72b/300/400",
+        "https://picsum.photos/seed/shopco72c/300/400"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Classic Pullover Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Gym",
+      "colors": [
+        "black",
+        "green",
+        "aqua",
+        "pink"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 130,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco73/300/400",
+      "description": "Durable construction and timeless design. A hoodie you'll reach for every day.",
+      "images": [
+        "https://picsum.photos/seed/shopco73a/300/400",
+        "https://picsum.photos/seed/shopco73b/300/400",
+        "https://picsum.photos/seed/shopco73c/300/400"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Zip-Up Fleece Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Party",
+      "colors": [
+        "pink",
+        "red",
+        "black"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 115,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco74/300/400",
+      "description": "A statement piece that layers perfectly over tees or under jackets.",
+      "images": [
+        "https://picsum.photos/seed/shopco74a/300/400",
+        "https://picsum.photos/seed/shopco74b/300/400",
+        "https://picsum.photos/seed/shopco74c/300/400"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Oversized Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Gym",
+      "colors": [
+        "purple",
+        "pink",
+        "aqua"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 90,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco75/300/400",
+      "description": "Cozy fleece interior keeps you warm on cooler days without sacrificing style.",
+      "images": [
+        "https://picsum.photos/seed/shopco75a/300/400",
+        "https://picsum.photos/seed/shopco75b/300/400",
+        "https://picsum.photos/seed/shopco75c/300/400"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Crop Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Gym",
+      "colors": [
+        "white",
+        "pink",
+        "purple",
+        "green"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 140,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco76/300/400",
+      "description": "Durable construction and timeless design. A hoodie you'll reach for every day.",
+      "images": [
+        "https://picsum.photos/seed/shopco76a/300/400",
+        "https://picsum.photos/seed/shopco76b/300/400",
+        "https://picsum.photos/seed/shopco76c/300/400"
+      ],
+      "oldPrice": 160,
+      "discount": 25
+    },
+    {
+      "id": 77,
+      "name": "Tie-Dye Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Formal",
+      "colors": [
+        "pink",
+        "black",
+        "red"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 75,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco77/300/400",
+      "description": "A statement piece that layers perfectly over tees or under jackets.",
+      "images": [
+        "https://picsum.photos/seed/shopco77a/300/400",
+        "https://picsum.photos/seed/shopco77b/300/400",
+        "https://picsum.photos/seed/shopco77c/300/400"
+      ],
+      "oldPrice": 105,
+      "discount": 30
+    },
+    {
+      "id": 78,
+      "name": "Graphic Print Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Formal",
+      "colors": [
+        "orange",
+        "red"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 60,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco78/300/400",
+      "description": "Durable construction and timeless design. A hoodie you'll reach for every day.",
+      "images": [
+        "https://picsum.photos/seed/shopco78a/300/400",
+        "https://picsum.photos/seed/shopco78b/300/400",
+        "https://picsum.photos/seed/shopco78c/300/400"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Essential Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Formal",
+      "colors": [
+        "purple",
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 150,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco79/300/400",
+      "description": "Durable construction and timeless design. A hoodie you'll reach for every day.",
+      "images": [
+        "https://picsum.photos/seed/shopco79a/300/400",
+        "https://picsum.photos/seed/shopco79b/300/400",
+        "https://picsum.photos/seed/shopco79c/300/400"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Quarter-Zip Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Party",
+      "colors": [
+        "red",
+        "aqua"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 250,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco80/300/400",
+      "description": "Cozy fleece interior keeps you warm on cooler days without sacrificing style.",
+      "images": [
+        "https://picsum.photos/seed/shopco80a/300/400",
+        "https://picsum.photos/seed/shopco80b/300/400",
+        "https://picsum.photos/seed/shopco80c/300/400"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Sherpa Lined Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Party",
+      "colors": [
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 290,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco81/300/400",
+      "description": "Durable construction and timeless design. A hoodie you'll reach for every day.",
+      "images": [
+        "https://picsum.photos/seed/shopco81a/300/400",
+        "https://picsum.photos/seed/shopco81b/300/400",
+        "https://picsum.photos/seed/shopco81c/300/400"
+      ],
+      "oldPrice": 340,
+      "discount": 30
+    },
+    {
+      "id": 82,
+      "name": "Acid Wash Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Party",
+      "colors": [
+        "orange",
+        "purple",
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 160,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco82/300/400",
+      "description": "Durable construction and timeless design. A hoodie you'll reach for every day.",
+      "images": [
+        "https://picsum.photos/seed/shopco82a/300/400",
+        "https://picsum.photos/seed/shopco82b/300/400",
+        "https://picsum.photos/seed/shopco82c/300/400"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Color Block Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Gym",
+      "colors": [
+        "yellow",
+        "white"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 315,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco83/300/400",
+      "description": "Cozy fleece interior keeps you warm on cooler days without sacrificing style.",
+      "images": [
+        "https://picsum.photos/seed/shopco83a/300/400",
+        "https://picsum.photos/seed/shopco83b/300/400",
+        "https://picsum.photos/seed/shopco83c/300/400"
+      ],
+      "oldPrice": 365,
+      "discount": 15
+    },
+    {
+      "id": 84,
+      "name": "Vintage Washed Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Gym",
+      "colors": [
+        "yellow",
+        "red",
+        "pink",
+        "purple"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 205,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco84/300/400",
+      "description": "Cozy fleece interior keeps you warm on cooler days without sacrificing style.",
+      "images": [
+        "https://picsum.photos/seed/shopco84a/300/400",
+        "https://picsum.photos/seed/shopco84b/300/400",
+        "https://picsum.photos/seed/shopco84c/300/400"
+      ],
+      "oldPrice": 255,
+      "discount": 15
+    },
+    {
+      "id": 85,
+      "name": "Ribbed Knit Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Formal",
+      "colors": [
+        "purple",
+        "blue",
+        "pink",
+        "black"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ],
+      "price": 165,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco85/300/400",
+      "description": "A statement piece that layers perfectly over tees or under jackets.",
+      "images": [
+        "https://picsum.photos/seed/shopco85a/300/400",
+        "https://picsum.photos/seed/shopco85b/300/400",
+        "https://picsum.photos/seed/shopco85c/300/400"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Distressed Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Casual",
+      "colors": [
+        "yellow",
+        "aqua",
+        "green"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 295,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco86/300/400",
+      "description": "A statement piece that layers perfectly over tees or under jackets.",
+      "images": [
+        "https://picsum.photos/seed/shopco86a/300/400",
+        "https://picsum.photos/seed/shopco86b/300/400",
+        "https://picsum.photos/seed/shopco86c/300/400"
+      ],
+      "oldPrice": 315,
+      "discount": 10
+    },
+    {
+      "id": 87,
+      "name": "Embroidered Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Formal",
+      "colors": [
+        "white",
+        "purple"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 175,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco87/300/400",
+      "description": "Cozy fleece interior keeps you warm on cooler days without sacrificing style.",
+      "images": [
+        "https://picsum.photos/seed/shopco87a/300/400",
+        "https://picsum.photos/seed/shopco87b/300/400",
+        "https://picsum.photos/seed/shopco87c/300/400"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Raglan Sleeve Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Party",
+      "colors": [
+        "pink",
+        "yellow"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 180,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco88/300/400",
+      "description": "Durable construction and timeless design. A hoodie you'll reach for every day.",
+      "images": [
+        "https://picsum.photos/seed/shopco88a/300/400",
+        "https://picsum.photos/seed/shopco88b/300/400",
+        "https://picsum.photos/seed/shopco88c/300/400"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Heavyweight Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Gym",
+      "colors": [
+        "white",
+        "yellow",
+        "red",
+        "orange"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 270,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco89/300/400",
+      "description": "A statement piece that layers perfectly over tees or under jackets.",
+      "images": [
+        "https://picsum.photos/seed/shopco89a/300/400",
+        "https://picsum.photos/seed/shopco89b/300/400",
+        "https://picsum.photos/seed/shopco89c/300/400"
+      ],
+      "oldPrice": 310,
+      "discount": 25
+    },
+    {
+      "id": 90,
+      "name": "Slim Fit Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Party",
+      "colors": [
+        "orange",
+        "purple"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 155,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco90/300/400",
+      "description": "Cozy fleece interior keeps you warm on cooler days without sacrificing style.",
+      "images": [
+        "https://picsum.photos/seed/shopco90a/300/400",
+        "https://picsum.photos/seed/shopco90b/300/400",
+        "https://picsum.photos/seed/shopco90c/300/400"
+      ],
+      "oldPrice": 205,
+      "discount": 25
+    },
+    {
+      "id": 91,
+      "name": "Brushed Jersey Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Formal",
+      "colors": [
+        "pink",
+        "aqua",
+        "orange",
+        "white"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 270,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco91/300/400",
+      "description": "A statement piece that layers perfectly over tees or under jackets.",
+      "images": [
+        "https://picsum.photos/seed/shopco91a/300/400",
+        "https://picsum.photos/seed/shopco91b/300/400",
+        "https://picsum.photos/seed/shopco91c/300/400"
+      ],
+      "oldPrice": 290,
+      "discount": 10
+    },
+    {
+      "id": 92,
+      "name": "French Terry Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Party",
+      "colors": [
+        "yellow",
+        "red",
+        "green",
+        "black"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 300,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco92/300/400",
+      "description": "Relaxed fit with a soft brushed interior. The ultimate comfort piece.",
+      "images": [
+        "https://picsum.photos/seed/shopco92a/300/400",
+        "https://picsum.photos/seed/shopco92b/300/400",
+        "https://picsum.photos/seed/shopco92c/300/400"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Drop Shoulder Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Formal",
+      "colors": [
+        "yellow",
+        "white"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 150,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco93/300/400",
+      "description": "A statement piece that layers perfectly over tees or under jackets.",
+      "images": [
+        "https://picsum.photos/seed/shopco93a/300/400",
+        "https://picsum.photos/seed/shopco93b/300/400",
+        "https://picsum.photos/seed/shopco93c/300/400"
+      ],
+      "oldPrice": 180,
+      "discount": 25
+    },
+    {
+      "id": 94,
+      "name": "Champion Style Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Formal",
+      "colors": [
+        "blue",
+        "red",
+        "pink"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 210,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco94/300/400",
+      "description": "Durable construction and timeless design. A hoodie you'll reach for every day.",
+      "images": [
+        "https://picsum.photos/seed/shopco94a/300/400",
+        "https://picsum.photos/seed/shopco94b/300/400",
+        "https://picsum.photos/seed/shopco94c/300/400"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Blanket Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Gym",
+      "colors": [
+        "purple",
+        "green"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 315,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco95/300/400",
+      "description": "A statement piece that layers perfectly over tees or under jackets.",
+      "images": [
+        "https://picsum.photos/seed/shopco95a/300/400",
+        "https://picsum.photos/seed/shopco95b/300/400",
+        "https://picsum.photos/seed/shopco95c/300/400"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Sports Hoodie",
+      "type": "Hoodie",
+      "dressStyle": "Casual",
+      "colors": [
+        "purple",
+        "blue",
+        "red",
+        "white"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 295,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco96/300/400",
+      "description": "A statement piece that layers perfectly over tees or under jackets.",
+      "images": [
+        "https://picsum.photos/seed/shopco96a/300/400",
+        "https://picsum.photos/seed/shopco96b/300/400",
+        "https://picsum.photos/seed/shopco96c/300/400"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Slim Straight Jeans",
+      "type": "Jeans",
+      "dressStyle": "Casual",
+      "colors": [
+        "pink",
+        "aqua",
+        "purple",
+        "green"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 130,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco97/300/400",
+      "description": "Durable construction meets stylish design. These jeans go from day to night effortlessly.",
+      "images": [
+        "https://picsum.photos/seed/shopco97a/300/400",
+        "https://picsum.photos/seed/shopco97b/300/400",
+        "https://picsum.photos/seed/shopco97c/300/400"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Classic Bootcut Jeans",
+      "type": "Jeans",
+      "dressStyle": "Casual",
+      "colors": [
+        "pink",
+        "blue",
+        "purple"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 95,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco98/300/400",
+      "description": "Clean lines and quality stitching make these a reliable wardrobe staple.",
+      "images": [
+        "https://picsum.photos/seed/shopco98a/300/400",
+        "https://picsum.photos/seed/shopco98b/300/400",
+        "https://picsum.photos/seed/shopco98c/300/400"
+      ],
+      "oldPrice": 125,
+      "discount": 30
+    },
+    {
+      "id": 99,
+      "name": "High-Rise Tapered Jeans",
+      "type": "Jeans",
+      "dressStyle": "Formal",
+      "colors": [
+        "green",
+        "blue",
+        "orange"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ],
+      "price": 190,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco99/300/400",
+      "description": "Durable construction meets stylish design. These jeans go from day to night effortlessly.",
+      "images": [
+        "https://picsum.photos/seed/shopco99a/300/400",
+        "https://picsum.photos/seed/shopco99b/300/400",
+        "https://picsum.photos/seed/shopco99c/300/400"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Relaxed Fit Jeans",
+      "type": "Jeans",
+      "dressStyle": "Formal",
+      "colors": [
+        "aqua",
+        "orange",
+        "red"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 275,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco100/300/400",
+      "description": "Premium denim with just the right amount of stretch for all-day comfort.",
+      "images": [
+        "https://picsum.photos/seed/shopco100a/300/400",
+        "https://picsum.photos/seed/shopco100b/300/400",
+        "https://picsum.photos/seed/shopco100c/300/400"
+      ],
+      "oldPrice": 295,
+      "discount": 20
+    },
+    {
+      "id": 101,
+      "name": "Dark Wash Skinny Jeans",
+      "type": "Jeans",
+      "dressStyle": "Party",
+      "colors": [
+        "white",
+        "orange"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 310,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco101/300/400",
+      "description": "A timeless silhouette updated with modern fabric technology.",
+      "images": [
+        "https://picsum.photos/seed/shopco101a/300/400",
+        "https://picsum.photos/seed/shopco101b/300/400",
+        "https://picsum.photos/seed/shopco101c/300/400"
+      ],
+      "oldPrice": 340,
+      "discount": 15
+    },
+    {
+      "id": 102,
+      "name": "Distressed Ripped Jeans",
+      "type": "Jeans",
+      "dressStyle": "Casual",
+      "colors": [
+        "aqua",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 250,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco102/300/400",
+      "description": "Durable construction meets stylish design. These jeans go from day to night effortlessly.",
+      "images": [
+        "https://picsum.photos/seed/shopco102a/300/400",
+        "https://picsum.photos/seed/shopco102b/300/400",
+        "https://picsum.photos/seed/shopco102c/300/400"
+      ],
+      "oldPrice": 280,
+      "discount": 15
+    },
+    {
+      "id": 103,
+      "name": "Wide Leg Denim",
+      "type": "Jeans",
+      "dressStyle": "Casual",
+      "colors": [
+        "aqua",
+        "green"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 310,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco103/300/400",
+      "description": "Premium denim with just the right amount of stretch for all-day comfort.",
+      "images": [
+        "https://picsum.photos/seed/shopco103a/300/400",
+        "https://picsum.photos/seed/shopco103b/300/400",
+        "https://picsum.photos/seed/shopco103c/300/400"
+      ],
+      "oldPrice": 330,
+      "discount": 20
+    },
+    {
+      "id": 104,
+      "name": "Mom Jeans",
+      "type": "Jeans",
+      "dressStyle": "Party",
+      "colors": [
+        "black",
+        "red",
+        "pink",
+        "aqua"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 200,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco104/300/400",
+      "description": "Clean lines and quality stitching make these a reliable wardrobe staple.",
+      "images": [
+        "https://picsum.photos/seed/shopco104a/300/400",
+        "https://picsum.photos/seed/shopco104b/300/400",
+        "https://picsum.photos/seed/shopco104c/300/400"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Vintage Straight Jeans",
+      "type": "Jeans",
+      "dressStyle": "Party",
+      "colors": [
+        "red",
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ],
+      "price": 65,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco105/300/400",
+      "description": "A timeless silhouette updated with modern fabric technology.",
+      "images": [
+        "https://picsum.photos/seed/shopco105a/300/400",
+        "https://picsum.photos/seed/shopco105b/300/400",
+        "https://picsum.photos/seed/shopco105c/300/400"
+      ],
+      "oldPrice": 115,
+      "discount": 25
+    },
+    {
+      "id": 106,
+      "name": "Cropped Flare Jeans",
+      "type": "Jeans",
+      "dressStyle": "Casual",
+      "colors": [
+        "black",
+        "white",
+        "aqua"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ],
+      "price": 100,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco106/300/400",
+      "description": "Premium denim with just the right amount of stretch for all-day comfort.",
+      "images": [
+        "https://picsum.photos/seed/shopco106a/300/400",
+        "https://picsum.photos/seed/shopco106b/300/400",
+        "https://picsum.photos/seed/shopco106c/300/400"
+      ],
+      "oldPrice": 140,
+      "discount": 30
+    },
+    {
+      "id": 107,
+      "name": "Acid Wash Jeans",
+      "type": "Jeans",
+      "dressStyle": "Gym",
+      "colors": [
+        "orange",
+        "purple",
+        "pink",
+        "red"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ],
+      "price": 265,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco107/300/400",
+      "description": "Clean lines and quality stitching make these a reliable wardrobe staple.",
+      "images": [
+        "https://picsum.photos/seed/shopco107a/300/400",
+        "https://picsum.photos/seed/shopco107b/300/400",
+        "https://picsum.photos/seed/shopco107c/300/400"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Black Skinny Jeans",
+      "type": "Jeans",
+      "dressStyle": "Casual",
+      "colors": [
+        "aqua",
+        "blue",
+        "yellow",
+        "white"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 290,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco108/300/400",
+      "description": "Premium denim with just the right amount of stretch for all-day comfort.",
+      "images": [
+        "https://picsum.photos/seed/shopco108a/300/400",
+        "https://picsum.photos/seed/shopco108b/300/400",
+        "https://picsum.photos/seed/shopco108c/300/400"
+      ],
+      "oldPrice": 330,
+      "discount": 25
+    },
+    {
+      "id": 109,
+      "name": "Light Wash Slim Jeans",
+      "type": "Jeans",
+      "dressStyle": "Party",
+      "colors": [
+        "green",
+        "white",
+        "blue",
+        "pink"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 195,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco109/300/400",
+      "description": "Clean lines and quality stitching make these a reliable wardrobe staple.",
+      "images": [
+        "https://picsum.photos/seed/shopco109a/300/400",
+        "https://picsum.photos/seed/shopco109b/300/400",
+        "https://picsum.photos/seed/shopco109c/300/400"
+      ],
+      "oldPrice": 225,
+      "discount": 20
+    },
+    {
+      "id": 110,
+      "name": "Cargo Denim Jeans",
+      "type": "Jeans",
+      "dressStyle": "Formal",
+      "colors": [
+        "red",
+        "white",
+        "orange"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 290,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco110/300/400",
+      "description": "Premium denim with just the right amount of stretch for all-day comfort.",
+      "images": [
+        "https://picsum.photos/seed/shopco110a/300/400",
+        "https://picsum.photos/seed/shopco110b/300/400",
+        "https://picsum.photos/seed/shopco110c/300/400"
+      ],
+      "oldPrice": 330,
+      "discount": 20
+    },
+    {
+      "id": 111,
+      "name": "Patchwork Jeans",
+      "type": "Jeans",
+      "dressStyle": "Formal",
+      "colors": [
+        "white",
+        "black",
+        "green"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 235,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco111/300/400",
+      "description": "Durable construction meets stylish design. These jeans go from day to night effortlessly.",
+      "images": [
+        "https://picsum.photos/seed/shopco111a/300/400",
+        "https://picsum.photos/seed/shopco111b/300/400",
+        "https://picsum.photos/seed/shopco111c/300/400"
+      ],
+      "oldPrice": 265,
+      "discount": 20
+    },
+    {
+      "id": 112,
+      "name": "Raw Hem Jeans",
+      "type": "Jeans",
+      "dressStyle": "Formal",
+      "colors": [
+        "yellow",
+        "black"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 300,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco112/300/400",
+      "description": "Premium denim with just the right amount of stretch for all-day comfort.",
+      "images": [
+        "https://picsum.photos/seed/shopco112a/300/400",
+        "https://picsum.photos/seed/shopco112b/300/400",
+        "https://picsum.photos/seed/shopco112c/300/400"
+      ],
+      "oldPrice": 340,
+      "discount": 20
+    },
+    {
+      "id": 113,
+      "name": "Selvedge Straight Jeans",
+      "type": "Jeans",
+      "dressStyle": "Party",
+      "colors": [
+        "purple",
+        "pink",
+        "blue"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 295,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco113/300/400",
+      "description": "Durable construction meets stylish design. These jeans go from day to night effortlessly.",
+      "images": [
+        "https://picsum.photos/seed/shopco113a/300/400",
+        "https://picsum.photos/seed/shopco113b/300/400",
+        "https://picsum.photos/seed/shopco113c/300/400"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Washed Indigo Jeans",
+      "type": "Jeans",
+      "dressStyle": "Party",
+      "colors": [
+        "yellow",
+        "black"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ],
+      "price": 240,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco114/300/400",
+      "description": "Clean lines and quality stitching make these a reliable wardrobe staple.",
+      "images": [
+        "https://picsum.photos/seed/shopco114a/300/400",
+        "https://picsum.photos/seed/shopco114b/300/400",
+        "https://picsum.photos/seed/shopco114c/300/400"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Biker Denim Jeans",
+      "type": "Jeans",
+      "dressStyle": "Gym",
+      "colors": [
+        "purple",
+        "aqua",
+        "orange"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 195,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco115/300/400",
+      "description": "Premium denim with just the right amount of stretch for all-day comfort.",
+      "images": [
+        "https://picsum.photos/seed/shopco115a/300/400",
+        "https://picsum.photos/seed/shopco115b/300/400",
+        "https://picsum.photos/seed/shopco115c/300/400"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Pleated Trousers Denim",
+      "type": "Jeans",
+      "dressStyle": "Casual",
+      "colors": [
+        "white",
+        "aqua",
+        "green"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ],
+      "price": 275,
+      "rating": 4.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco116/300/400",
+      "description": "Premium denim with just the right amount of stretch for all-day comfort.",
+      "images": [
+        "https://picsum.photos/seed/shopco116a/300/400",
+        "https://picsum.photos/seed/shopco116b/300/400",
+        "https://picsum.photos/seed/shopco116c/300/400"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Barrel Fit Jeans",
+      "type": "Jeans",
+      "dressStyle": "Casual",
+      "colors": [
+        "aqua",
+        "black"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "price": 155,
+      "rating": 3.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco117/300/400",
+      "description": "Clean lines and quality stitching make these a reliable wardrobe staple.",
+      "images": [
+        "https://picsum.photos/seed/shopco117a/300/400",
+        "https://picsum.photos/seed/shopco117b/300/400",
+        "https://picsum.photos/seed/shopco117c/300/400"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Stretch Comfort Jeans",
+      "type": "Jeans",
+      "dressStyle": "Casual",
+      "colors": [
+        "white",
+        "blue",
+        "red",
+        "orange"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 195,
+      "rating": 4.5,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco118/300/400",
+      "description": "Clean lines and quality stitching make these a reliable wardrobe staple.",
+      "images": [
+        "https://picsum.photos/seed/shopco118a/300/400",
+        "https://picsum.photos/seed/shopco118b/300/400",
+        "https://picsum.photos/seed/shopco118c/300/400"
+      ],
+      "oldPrice": 225,
+      "discount": 25
+    },
+    {
+      "id": 119,
+      "name": "Stone Wash Jeans",
+      "type": "Jeans",
+      "dressStyle": "Party",
+      "colors": [
+        "purple",
+        "black",
+        "aqua",
+        "green"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "price": 160,
+      "rating": 3.0,
+      "star": "\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco119/300/400",
+      "description": "A timeless silhouette updated with modern fabric technology.",
+      "images": [
+        "https://picsum.photos/seed/shopco119a/300/400",
+        "https://picsum.photos/seed/shopco119b/300/400",
+        "https://picsum.photos/seed/shopco119c/300/400"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Double Knee Jeans",
+      "type": "Jeans",
+      "dressStyle": "Gym",
+      "colors": [
+        "blue",
+        "red",
+        "purple",
+        "pink"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ],
+      "price": 255,
+      "rating": 5.0,
+      "star": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "image": "https://picsum.photos/seed/shopco120/300/400",
+      "description": "Clean lines and quality stitching make these a reliable wardrobe staple.",
+      "images": [
+        "https://picsum.photos/seed/shopco120a/300/400",
+        "https://picsum.photos/seed/shopco120b/300/400",
+        "https://picsum.photos/seed/shopco120c/300/400"
+      ]
+    }
+  ]
+}

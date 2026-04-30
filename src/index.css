@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@font-face {
+  font-display: swap;
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/Fonts/Satoshi-Regular.otf') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Integral CF';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/Fonts/IntegralCF-Regular.woff2') format('woff2');
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: Satoshi;
+  }
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.price-track {
+  position: relative;
+  height: 4px;
+  background: #e0e0e0;
+  border-radius: 2px;
+  margin: 12px 0;
+}
+.price-fill {
+  position: absolute;
+  height: 100%;
+  background: black;
+  border-radius: 2px;
+}
+.price-slider {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  pointer-events: none;
+  height: 20px;
+}
+.price-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+  pointer-events: all;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+.price-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+  pointer-events: all;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.categories-swiper {
+  width: 100%;
+}
+.categories-swiper .swiper-button-next,
+.categories-swiper .swiper-button-prev {
+  color: black;
+  background: white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.categories-swiper .swiper-button-next::after,
+.categories-swiper .swiper-button-prev::after {
+  font-size: 14px;
+  font-weight: bold;
+}
+.categories-swiper .swiper-pagination-bullet-active {
+  background: black;
+}

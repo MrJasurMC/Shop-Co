@@ -1,0 +1,44 @@
+{
+  "arrivals": [
+    {
+      "id": 1,
+      "name": "T-shirt with Tape Details",
+      "category": "new_arrival",
+      "price": 120,
+      "rating": 4.5,
+      "star": "⭐⭐⭐⭐⭐",
+      "image": "/images/btshirt.png"
+    },
+    {
+      "id": 2,
+      "name": "Skinny Fit Jeans",
+      "category": "new_arrival",
+      "price": 240,
+      "oldPrice": 260,
+      "discount": 20,
+      "rating": 3.5,
+      "star": "⭐⭐⭐⭐⭐",
+      "image": "/images/bjeans.png"
+    },
+    {
+      "id": 3,
+      "name": "Checkered Shirt",
+      "category": "new_arrival",
+      "price": 180,
+      "rating": 4.5,
+      "star": "⭐⭐⭐⭐⭐",
+      "image": "/images/checkered.png"
+    },
+    {
+      "id": 4,
+      "name": "Sleeve Striped T-shirt",
+      "category": "new_arrival",
+      "price": 130,
+      "oldPrice": 160,
+      "discount": 30,
+      "rating": 4.5,
+      "star": "⭐⭐⭐⭐⭐",
+      "image": "/images/sleve.png"
+    }
+  ]
+}

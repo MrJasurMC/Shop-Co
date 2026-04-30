@@ -1,0 +1,42 @@
+{
+    "top": [
+        {
+            "id": 5,
+            "name": "Vertical Striped Shirt",
+            "category": "top_selling",
+            "price": 212,
+            "oldPrice": 232,
+            "discount": 20,
+            "rating": 5.0,
+            "star": "⭐⭐⭐⭐⭐",
+            "image": "/images/vertical.png"
+        },
+        {
+            "id": 6,
+            "name": "Courage Graphic T-shirt",
+            "category": "top_selling",
+            "price": 145,
+            "rating": 4.0,
+            "star": "⭐⭐⭐⭐⭐",
+            "image": "/images/courage.png"
+        },
+        {
+            "id": 7,
+            "name": "Loose Fit Bermuda Shorts",
+            "category": "top_selling",
+            "price": 80,
+            "rating": 3.0,
+            "star": "⭐⭐⭐⭐⭐",
+            "image": "/images/loses.png"
+        },
+        {
+            "id": 8,
+            "name": "Faded Skinny Jeans",
+            "category": "top_selling",
+            "price": 210,
+            "rating": 4.5,
+            "star": "⭐⭐⭐⭐⭐",
+            "image": "/images/faded.png"
+        }
+    ]
+}
