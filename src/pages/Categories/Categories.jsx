@@ -139,7 +139,6 @@ function Categories({ text = " " }) {
       </button>
     </div>
   )
-
   return (
     <section className='px-4 md:p-10 py-4 md:py-6'>
       <Link className='inline-flex items-center gap-[6px] text-[#777] mb-4 md:mb-[30px] hover:text-black transition-colors text-sm' to="/">
