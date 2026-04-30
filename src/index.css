@@ -26,6 +26,11 @@
     font-family: Satoshi;
   }
 }
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+} */
 .price-track {
   position: relative;
   height: 4px;
@@ -67,8 +72,19 @@
   width: 36px;
   height: 36px;
 }
+
+.categories-swiper .swiper-pagination-bullet {
+  background: #e0e0e0 !important;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  opacity: 1;
+}
 .categories-swiper .swiper-pagination-bullet-active {
-  background: black;
+  background: black !important;
+}
+.categories-swiper .swiper-wrapper {
+  margin-bottom: 30px;
 }
 .no-scrollbar::-webkit-scrollbar {
     display: none;
