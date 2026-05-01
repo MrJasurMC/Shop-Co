@@ -68,7 +68,9 @@
 }
 .categories-swiper .swiper-button-next,
 .categories-swiper .swiper-button-prev {
- display: none;
+  color: rgb(0, 0, 0);
+  width: 36px;
+  height: 36px;
 }
 
 .categories-swiper .swiper-pagination-bullet {
