@@ -188,7 +188,7 @@ function Categories({ text = " " }) {
           <Swiper
             modules={[Navigation, Pagination]}
             navigation
-            autoplay={{ delay: 1000 }}
+            autoplay={{ delay: 2000 }}
             onSlideChange={(s) => setCurrentSlide(s.activeIndex)}
             className="categories-swiper flex-wrap"
           >
@@ -200,7 +200,7 @@ function Categories({ text = " " }) {
                       <div className="overflow-hidden rounded-xl bg-[#F0EEED]">
                         <Swiper
                           modules={[Autoplay]}
-                          autoplay={{ delay: 1000 }}
+                          autoplay={{ delay: 2000 }}
                           loop
                           className="card-img-swiper"
                         >
