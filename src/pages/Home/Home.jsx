@@ -138,23 +138,23 @@ function Home() {
       <div className="mx-4 md:mx-[90px] my-10 md:my-20 px-4 md:px-16 py-8 md:py-[70px] flex items-center flex-col gap-6 md:gap-10 bg-[#F0F0F0] rounded-[20px]">
         <h3 className="text-[20px] md:text-[32px] font-bold" style={{ fontFamily: 'Integral CF' }}>BROWSE BY DRESS STYLE</h3>
         <div className="w-full flex flex-col gap-3 md:gap-[14px]">
-          <div className="flex gap-3 md:gap-[14px]">
+          <div className="flex flex-col md:flex-row gap-3 md:gap-[14px]">
             <Link to="/categories" className="group relative overflow-hidden rounded-[15px] md:rounded-[20px] cursor-pointer" style={{ flex: '407' }}>
-              <img src={casual} alt="Casual" className="w-full h-[120px] md:h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <img src={casual} alt="Casual" className="w-full h-[180px] md:h-full object-cover object-left transition-transform duration-300 group-hover:scale-105" />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 rounded-[15px] md:rounded-[20px]" />
             </Link>
             <Link to="/categories" className="group relative overflow-hidden rounded-[15px] md:rounded-[20px] cursor-pointer" style={{ flex: '684' }}>
-              <img src={formal} alt="Formal" className="w-full h-[120px] md:h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <img src={formal} alt="Formal" className="w-full h-[180px] md:h-full object-cover object-left transition-transform duration-300 group-hover:scale-105" />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 rounded-[15px] md:rounded-[20px]" />
             </Link>
           </div>
-          <div className="flex gap-3 md:gap-[14px]">
+          <div className="flex flex-col md:flex-row gap-3 md:gap-[14px]">
             <Link to="/categories" className="group relative overflow-hidden rounded-[15px] md:rounded-[20px] cursor-pointer" style={{ flex: '684' }}>
-              <img src={party} alt="Party" className="w-full h-[120px] md:h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <img src={party} alt="Party" className="w-full h-[180px] md:h-full object-cover object-left transition-transform duration-300 group-hover:scale-105" />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 rounded-[15px] md:rounded-[20px]" />
             </Link>
             <Link to="/categories" className="group relative overflow-hidden rounded-[15px] md:rounded-[20px] cursor-pointer" style={{ flex: '407' }}>
-              <img src={gym} alt="Gym" className="w-full h-[120px] md:h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+              <img src={gym} alt="Gym" className="w-full h-[180px] md:h-full object-cover object-left transition-transform duration-300 group-hover:scale-105" />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 rounded-[15px] md:rounded-[20px]" />
             </Link>
           </div>

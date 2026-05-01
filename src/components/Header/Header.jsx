@@ -11,6 +11,7 @@ import { useNavigate } from 'react-router-dom';
 function Header({ setText }) {
   const [invisible, setInvisible] = useState(true);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const items = useSelector(state => state.cart.items);
   const cartCount = items.reduce((sum, item) => sum + item.quantity, 0);
   const navigate = useNavigate();
@@ -82,13 +83,23 @@ function Header({ setText }) {
         </nav>
 
         <div className="flex md:hidden items-center gap-4">
-          <button className="text-black text-xl bg-transparent border-0 cursor-pointer p-0"><FaSearch /></button>
+          <button className="text-black text-xl bg-transparent border-0 cursor-pointer p-0" onClick={() => setMobileSearchOpen(s => !s)}><FaSearch /></button>
           <Link to="/cart" className="text-black text-xl relative">
             <LuShoppingCart />
           </Link>
           <Link to="/" className='text-black text-xl'><FaRegUserCircle /></Link>
         </div>
       </div>
+
+      {mobileSearchOpen && (
+        <div className="md:hidden px-4 pb-3 pt-1 flex items-center gap-3 border-b border-black/5 bg-white">
+          <div className="flex-1 h-11 px-4 flex items-center gap-3 bg-[#F0F0F0] rounded-[62px] focus-within:ring-2 focus-within:ring-black/20 transition-all">
+            <FaSearch className='text-black/40 flex-shrink-0' />
+            <input autoFocus type="text" className="w-full bg-transparent border-0 text-sm placeholder:text-black/40 focus:outline-none" placeholder='Search for products...' onChange={handleSearch} />
+          </div>
+          <button className="text-black text-xl bg-transparent border-0 cursor-pointer p-0" onClick={() => setMobileSearchOpen(false)}><FaXmark /></button>
+        </div>
+      )}
 
       {mobileMenuOpen && (
         <div className="fixed inset-0 z-50 md:hidden">
@@ -97,10 +108,6 @@ function Header({ setText }) {
             <div className="flex items-center justify-between">
               <span className="text-[24px] font-bold" style={{ fontFamily: 'Integral CF' }}>SHOP.CO</span>
               <button className="text-2xl bg-transparent border-0 cursor-pointer p-0" onClick={() => setMobileMenuOpen(false)}><FaXmark /></button>
-            </div>
-            <div className="h-11 px-4 flex items-center gap-3 bg-[#F0F0F0] rounded-[62px]">
-              <FaSearch className='text-black/40' />
-              <input type="text" className="w-full bg-transparent border-0 text-sm placeholder:text-black/40 focus:outline-none" placeholder='Search for products...' />
             </div>
             <ul className='flex flex-col'>
               {[{ label: 'Shop', to: '/categories' }, { label: 'On Sale', to: '/categories' }, { label: 'New Arrivals', to: '/' }, { label: 'Brands', to: '/' }].map(link => (

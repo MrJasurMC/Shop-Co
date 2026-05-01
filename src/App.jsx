@@ -16,7 +16,7 @@ function App() {
   if (loading) return <Loading onFinish={() => setLoading(false)} />
   
   return (
-    <section className='max-w-[1440px]'>
+    <section className='max-w-[1440px] mx-auto w-full'>
       <Header setText={setText} />
       <Routes>
         <Route path="/" element={<Home />} />

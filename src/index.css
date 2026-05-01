@@ -68,9 +68,7 @@
 }
 .categories-swiper .swiper-button-next,
 .categories-swiper .swiper-button-prev {
-  color: black;
-  width: 36px;
-  height: 36px;
+ display: none;
 }
 
 .categories-swiper .swiper-pagination-bullet {

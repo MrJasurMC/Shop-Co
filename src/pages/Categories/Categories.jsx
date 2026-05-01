@@ -195,7 +195,7 @@ function Categories({ text = " " }) {
           >
             {pages.map((page, pageIndex) => (
               <SwiperSlide key={pageIndex}>
-                <div className="grid grid-cols-3 md:flex md:flex-wrap gap-3 md:gap-6 pb-10">
+                <div className="grid grid-cols-2 md:flex md:flex-wrap gap-3 md:gap-6 pb-10">
                   {page.map(item => (
                     <Link key={item.id} to={`/product/${item.id}`} className="group flex flex-col gap-[8px] md:gap-[10px] cursor-pointer text-inherit md:w-[290px]">
                       <div className="overflow-hidden rounded-xl bg-[#F0EEED]">
