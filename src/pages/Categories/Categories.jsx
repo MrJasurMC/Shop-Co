@@ -189,7 +189,6 @@ function Categories({ text = " " }) {
             modules={[Navigation, Pagination]}
             navigation
             autoplay={{ delay: 1000 }}
-            pagination={{ clickable: true }}
             onSlideChange={(s) => setCurrentSlide(s.activeIndex)}
             className="categories-swiper flex-wrap"
           >
@@ -199,7 +198,18 @@ function Categories({ text = " " }) {
                   {page.map(item => (
                     <Link key={item.id} to={`/product/${item.id}`} className="group flex flex-col gap-[8px] md:gap-[10px] cursor-pointer text-inherit md:w-[290px]">
                       <div className="overflow-hidden rounded-xl bg-[#F0EEED]">
-                        <img src={item.image} alt={item.name} className='w-full h-[180px] md:w-[300px] md:h-[300px] object-cover transition-transform duration-300 group-hover:scale-105' />
+                        <Swiper
+                          modules={[Autoplay]}
+                          autoplay={{ delay: 1000 }}
+                          loop
+                          className="card-img-swiper"
+                        >
+                          {(item.images?.length ? item.images : [item.image]).map((img, idx) => (
+                            <SwiperSlide key={idx}>
+                              <img src={img} alt={item.name} className='w-full h-[180px] md:h-[300px] object-cover' />
+                            </SwiperSlide>
+                          ))}
+                        </Swiper>
                       </div>
                       <h3 className="font-medium text-sm md:text-base group-hover:text-black/70 transition-colors truncate">{item.name}</h3>
                       <div className="flex items-center gap-[6px]">

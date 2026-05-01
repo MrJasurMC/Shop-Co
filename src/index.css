@@ -81,7 +81,7 @@
 .categories-swiper .swiper-pagination-bullet-active {
   background: black !important;
 }
-.categories-swiper .swiper-wrapper {
+.categories-swiper > .swiper-wrapper {
   margin-bottom: 30px;
 }
 .no-scrollbar::-webkit-scrollbar {
@@ -91,4 +91,8 @@
 .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none; 
+}
+
+.card-img-swiper {
+  width: 100%;
 }
