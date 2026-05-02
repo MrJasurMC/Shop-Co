@@ -33,10 +33,10 @@ function Header({ setText, onHeightChange }) {
     if (value.trim()) {
       navigate('/categories');
     }
-  };
+  }
 
   return (
-    <header ref={headerRef} className='w-full fixed z-[99] bg-white'>
+    <header ref={headerRef} className='w-full z-[99] bg-white'>
       {invisible && (
         <div className="w-full h-[38px] flex items-center justify-center relative bg-black">
           <p className="text-white text-xs md:text-sm font-normal leading-none text-center px-8">
