@@ -18,7 +18,7 @@ function App() {
   if (loading) return <Loading onFinish={() => setLoading(false)} />
 
   return (
-    <div style={{ width: '100%', maxWidth: '1440px', overflowX: 'hidden' }}>
+    <div style={{ width: '100%', maxWidth: '1440px', overflowX: 'hidden', margin: '0 auto' }}>
       <Header setText={setText} onHeightChange={setHeaderHeight} />
       <main style={{ paddingTop: headerHeight }}>
         <Routes>

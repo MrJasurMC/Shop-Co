@@ -26,6 +26,9 @@
     font-family: Satoshi;
   } 
 }
+html, body, #root {
+  width: 100%;
+}
 .price-track {
   position: relative;
   height: 4px;

@@ -21,7 +21,6 @@ function chunkArray(arr, size) {
 function Categories({ text = " " }) {
   const prices = products.products.map(p => Number(p.price))
   const maxProductPrice = Math.max(...prices)
-
   const [activeFilter, setActiveFilter] = useState("All")
   const [activeColor, setActiveColor]   = useState("All")
   const [activeSize, setActiveSize]     = useState("All")
@@ -38,7 +37,7 @@ function Categories({ text = " " }) {
     const matchesSize  = activeSize   === "All" || item.sizes?.includes(activeSize)
     const matchesStyle = activeStyle  === "All" || item.dressStyle?.includes(activeStyle)
     const matchesPrice = price >= minPrice && price <= maxPrice
-    const matchesSearch = item.name.toLowerCase().includes(text.toLowerCase());
+    const matchesSearch = item.name.toLowerCase().includes(text.toLowerCase())
     return matchesType && matchesColor && matchesSize && matchesStyle && matchesPrice && matchesSearch
   })
 
@@ -47,7 +46,6 @@ function Categories({ text = " " }) {
   const colors = ["green", "red", "yellow", "orange", "aqua", "blue", "purple", "pink", "white", "black"]
   const sizes  = ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large", "XX-Large", "3X-Large", "4X-Large"]
   const styles = ["Casual", "Formal", "Party", "Gym"]
-
   const startItem = filtered.length === 0 ? 0 : currentSlide * ITEMS_PER_PAGE + 1
   const endItem   = Math.min((currentSlide + 1) * ITEMS_PER_PAGE, filtered.length)
 
@@ -140,12 +138,12 @@ function Categories({ text = " " }) {
     </div>
   )
   return (
-    <section className='px-4 md:p-10 py-4 md:py-6'>
+    <section className='px-4 md:p-23 py-4 md:py-6'>
       <Link className='inline-flex items-center gap-[6px] text-[#777] mb-4 md:mb-[30px] hover:text-black transition-colors text-sm' to="/">
         Home <IoIosArrowForward /> <span className="text-black font-semibold">Casual</span>
       </Link>
 
-      <div className="flex gap-[50px]">
+      <div className="flex gap-[40px]">
         <div className="hidden md:block w-[290px] p-5 border border-black/10 rounded-xl h-fit">
           <FilterPanel />
         </div>
@@ -194,9 +192,9 @@ function Categories({ text = " " }) {
           >
             {pages.map((page, pageIndex) => (
               <SwiperSlide key={pageIndex}>
-                <div className="grid grid-cols-2 md:flex md:flex-wrap gap-3 md:gap-6 pb-10">
+                <div className="grid grid-cols-3 md:flex md:flex-wrap gap-3  pb-10">
                   {page.map(item => (
-                    <Link key={item.id} to={`/product/${item.id}`} className="group flex flex-col gap-[8px] md:gap-[10px] cursor-pointer text-inherit md:w-[290px]">
+                    <Link key={item.id} to={`/product/${item.id}`} className="group flex flex-col gap-[8px] md:gap-[10px] cursor-pointer text-inherit md:w-[270px]">
                       <div className="overflow-hidden rounded-xl bg-[#F0EEED]">
                         <Swiper
                           modules={[Autoplay]}

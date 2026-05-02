@@ -102,7 +102,6 @@ function Cart() {
               <button
                 className='w-full h-[52px] md:h-[60px] bg-black border-0 rounded-[60px] text-white text-base font-medium flex items-center justify-center gap-[10px] cursor-pointer transition-all duration-200 hover:bg-black/80 active:scale-[0.98] group'
                 onClick={(notifyy) => dispatch(clearCart)}
-                onChange={notifyy}
               >
                 Go to Checkout
                 <FaArrowRight className="transition-transform duration-200 group-hover:translate-x-1" />
