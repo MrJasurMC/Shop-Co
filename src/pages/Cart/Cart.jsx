@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io"
 import { FaArrowRight, FaTrash } from "react-icons/fa6"
 import { FiTag } from "react-icons/fi"
 import { ToastContainer, toast } from 'react-toastify'
-import { removeItem, updateQuantity } from '../../features/cart/cartSlice'
+import { removeItem, updateQuantity, clearCart } from '../../features/cart/cartSlice'
 
 function Cart() {
   const dispatch = useDispatch()
@@ -101,7 +101,8 @@ function Cart() {
               </div>
               <button
                 className='w-full h-[52px] md:h-[60px] bg-black border-0 rounded-[60px] text-white text-base font-medium flex items-center justify-center gap-[10px] cursor-pointer transition-all duration-200 hover:bg-black/80 active:scale-[0.98] group'
-                onClick={notifyy}
+                onClick={(notifyy) => dispatch(clearCart)}
+                onChange={notifyy}
               >
                 Go to Checkout
                 <FaArrowRight className="transition-transform duration-200 group-hover:translate-x-1" />

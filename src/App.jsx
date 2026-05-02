@@ -13,21 +13,25 @@ import Loading from './pages/Loading/Loading.jsx'
 function App() {
   const [text, setText] = useState('')
   const [loading, setLoading] = useState(true)
+  const [headerHeight, setHeaderHeight] = useState(135)
+
   if (loading) return <Loading onFinish={() => setLoading(false)} />
-  
+
   return (
-    <section className='max-w-[1440px] mx-auto w-full'>
-      <Header setText={setText} />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/categories" element={<Categories text={text} />} />
-        <Route path="/product/:id" element={<ProductDetail />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="*" element={<NotFound />} />
-        <Route path="/loading" element={<Loading onFinish={() => console.log('Loading finished!')} />} />
-      </Routes>
+    <div style={{ width: '100%', maxWidth: '1440px', overflowX: 'hidden' }}>
+      <Header setText={setText} onHeightChange={setHeaderHeight} />
+      <main style={{ paddingTop: headerHeight }}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/categories" element={<Categories text={text} />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/loading" element={<Loading onFinish={() => console.log('Loading finished!')} />} />
+        </Routes>
+      </main>
       <Footer />
-    </section>
+    </div>
   )
 }
 

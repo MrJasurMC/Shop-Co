@@ -164,7 +164,7 @@ function Home() {
       <div className="mx-4 md:mx-[90px] my-10 md:my-20 flex items-start flex-col gap-6 md:gap-[50px]">
         <div className="w-full flex items-center justify-between">
           <h3 className='text-[28px] md:text-5xl font-bold' style={{ fontFamily: 'Integral CF' }}>OUR HAPPY CUSTOMERS</h3>
-          <div className="hidden md:flex items-center gap-2">
+          <div className="md:flex items-center gap-2">
             <button className="w-9 h-9 rounded-full border border-black/20 flex items-center justify-center text-sm hover:bg-black hover:text-white transition-all cursor-pointer">‹</button>
             <button className="w-9 h-9 rounded-full border border-black/20 flex items-center justify-center text-sm hover:bg-black hover:text-white transition-all cursor-pointer">›</button>
           </div>

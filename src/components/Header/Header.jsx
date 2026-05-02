@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { FaXmark } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
 import { LuShoppingCart } from "react-icons/lu";
@@ -8,13 +8,24 @@ import { Link } from "react-router-dom"
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-function Header({ setText }) {
+function Header({ setText, onHeightChange }) {
   const [invisible, setInvisible] = useState(true);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const items = useSelector(state => state.cart.items);
   const cartCount = items.reduce((sum, item) => sum + item.quantity, 0);
   const navigate = useNavigate();
+  const headerRef = useRef(null);
+
+  useEffect(() => {
+    const el = headerRef.current;
+    if (!el) return;
+    const update = () => onHeightChange(el.offsetHeight);
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [invisible, mobileSearchOpen]);
 
   const handleSearch = (e) => {
     const value = e.target.value;
@@ -25,7 +36,7 @@ function Header({ setText }) {
   };
 
   return (
-    <header className='w-full'>
+    <header ref={headerRef} className='w-full fixed z-[99] bg-white'>
       {invisible && (
         <div className="w-full h-[38px] flex items-center justify-center relative bg-black">
           <p className="text-white text-xs md:text-sm font-normal leading-none text-center px-8">
@@ -72,11 +83,12 @@ function Header({ setText }) {
           </ul>
           <div className="flex-1 h-12 px-4 flex items-center gap-3 bg-[#F0F0F0] rounded-[62px] transition-all duration-200 focus-within:ring-2 focus-within:ring-black/20">
             <FaSearch className='text-black/40 text-lg flex-shrink-0' />
-            <input type="text" className="w-full h-full bg-transparent border-0 text-base placeholder:text-black/40 focus:outline-none" placeholder='Search for products...' onChange={handleSearch} />
+            <input type="text" className="w-full h-full bg-transparent border-0 text-base placeholder:text-black/50 focus:outline-none" placeholder='Search for products...' onChange={handleSearch} />
           </div>
           <div className="flex items-center gap-[14px]">
             <Link to="/cart" className="text-black text-xl relative hover:text-black/60 transition-colors">
               <LuShoppingCart />
+              {cartCount > 0 && <span className="absolute -top-2 -right-2 bg-black text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">{cartCount}</span>}
             </Link>
             <Link to="/" className='text-black text-xl hover:text-black/60 transition-colors'><FaRegUserCircle /></Link>
           </div>
@@ -86,6 +98,7 @@ function Header({ setText }) {
           <button className="text-black text-xl bg-transparent border-0 cursor-pointer p-0" onClick={() => setMobileSearchOpen(s => !s)}><FaSearch /></button>
           <Link to="/cart" className="text-black text-xl relative">
             <LuShoppingCart />
+            {cartCount > 0 && <span className="absolute -top-2 -right-2 bg-black text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">{cartCount}</span>}
           </Link>
           <Link to="/" className='text-black text-xl'><FaRegUserCircle /></Link>
         </div>

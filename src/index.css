@@ -24,13 +24,8 @@
     list-style: none;
     outline: none;
     font-family: Satoshi;
-  }
+  } 
 }
-/* body{
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-} */
 .price-track {
   position: relative;
   height: 4px;
